@@ -5,7 +5,7 @@
 Direct least-squares fitting of ellipses,
 IEEE Transactions on Pattern Analysis and Machine Intelligence, 21(5), 476--480, May 1999](http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/FITZGIBBON/ELLIPSE/)》
 
-本程序使用C++完成。其中我们使用了**Eigen**与**clapack**库。其中Eigen易于表达矩阵，和matlab用法类似，是个强大的C\++线性代数库。而CLAPACK是线性代数包Lapack面向C\/c++的接口。里面包含了很丰富的线性代数算法，包括**广义特征值求解接口**，而且速度很快。我们希望将二者结合起来使用。
+本程序使用C++完成。其中我们使用了**Eigen**与**clapack**库。其中Eigen易于表达矩阵，和matlab用法类似，是个强大的C\++线性代数库。而CLAPACK是线性代数包Lapack面向C/c++的接口。里面包含了很丰富的线性代数算法，包括**广义特征值求解接口**，而且速度很快。我们希望将二者结合起来使用。
 
 ## Eigen的安装
 Eigen直接以源代码的方式提供给用户，因此我们从[官网](http://eigen.tuxfamily.org/index.php?title=Main_Page)上下载下后，直接在工程中包含其头文件路径即可。具体可参考：http://blog.csdn.net/abcjennifer/article/details/7781936
