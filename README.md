@@ -1,5 +1,6 @@
 # EllipseFitting
 
+注意：本代码参考了 https://github.com/seisgo/EllipseFit  在此表示感谢！
 
 基于代数距离的椭圆拟合，主要参考论文《[Andrew W. Fitzgibbon, Maurizio Pilu, and Robert B. Fisher
 Direct least-squares fitting of ellipses,
